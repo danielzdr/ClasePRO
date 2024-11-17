@@ -32,7 +32,7 @@ public class EntradaComparacion {
         n2 = 40;
         boolean n3 = true;
         int n4 = -20;
-        boolean resultadoLogico = (n1<n2) && n3 && n4<0; // true && true && true = true
+        boolean resultadoLogico = (n1<n2) && n3 && n4<0; // false && true && true = false
         System.out.println("El resultado logico de las && es "+resultadoLogico);
         resultadoLogico = (n1>0) || (n2!=n1) || n3 || n4>0; // true || true || true || false = true
         System.out.println("El resultado logico de las && es "+resultadoLogico);
